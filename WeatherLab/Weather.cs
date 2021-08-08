@@ -6,6 +6,13 @@ namespace WeatherLab
 {
     public class Weather
     {
+         public string dateh;
+        public double? hddv;
+        public string datec;
+        public double hd;
+        public double cv;
+        public string abc;
+        public double? cde;
         [Key]
         [Column("id")]
         public int WeatherId { get; set; }
